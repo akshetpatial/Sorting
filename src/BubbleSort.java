@@ -3,7 +3,9 @@ import java.util.Scanner;
 
 public class BubbleSort {
 
-
+    // Best Case Time complexity is O(N)
+    // Worst Case Time complexity is O(N^2)
+    // Space complexity is O(1)
     public static int[] BubbleSorting(int[] array){
 
         int outloop=0;
