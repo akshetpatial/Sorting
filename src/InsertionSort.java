@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 public class InsertionSort {
 
+    // Best Case Time complexity is O(N)
+    // Worst Case Time complexity is O(N^2)
+    // Space complexity is O(1)
     public static int[] InsertionSorting(int[] array){
         int outerloop=0;
         int innerloop=1;
