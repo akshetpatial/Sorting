@@ -47,6 +47,6 @@ public class InsertionSort {
 
         int[] SArray= InsertionSorting(array);
 
-        System.out.println("\nSorted Array after Bubble sort is: "+ Arrays.toString(SArray));
+        System.out.println("\nSorted Array after Insertion Sort is: "+ Arrays.toString(SArray));
     }
 }

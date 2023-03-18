@@ -53,6 +53,6 @@ public class BubbleSort {
 
         int[] SArray= BubbleSorting(array);
 
-        System.out.println("\nSorted Array after Bubble sort is: "+ Arrays.toString(SArray));
+        System.out.println("\nSorted Array after Bubble Sort is: "+ Arrays.toString(SArray));
     }
 }

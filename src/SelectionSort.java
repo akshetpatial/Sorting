@@ -52,6 +52,6 @@ public class SelectionSort {
 
         int[] SArray= SelectionSorting(array);
 
-        System.out.println("\nSorted Array after Bubble sort is: "+ Arrays.toString(SArray));
+        System.out.println("\nSorted Array after Selection Sort is: "+ Arrays.toString(SArray));
     }
 }
