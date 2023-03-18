@@ -7,7 +7,6 @@ public class SelectionSort {
 
         int outerloop=0;
         int innerloop=0;
-        int count;
         while(outerloop<array.length){
             int max=array[0];
             int maxPos=0;
