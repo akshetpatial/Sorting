@@ -748,4 +748,111 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Sorting/BubbleSort.class
+        modified:   out/production/Sorting/InsertionSort.class
+        modified:   out/production/Sorting/SelectionSort.class
+        modified:   src/BubbleSort.java
+        modified:   src/InsertionSort.java
+        modified:   src/SelectionSort.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Cyclic Sort.pdf
+        out/production/Sorting/CyclicSort.class
+        src/CyclicSort.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add Cyclic\ Sort.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Added Cyclic Sort.pdf file"
+[master 055f06d] Added Cyclic Sort.pdf file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Cyclic Sort.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add out/production/Sorting/CyclicSort.class src/CyclicSort.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Created CyclicSort.java file"
+[master fc39365] Created CyclicSort.java file
+ 2 files changed, 54 insertions(+)
+ create mode 100644 out/production/Sorting/CyclicSort.class
+ create mode 100644 src/CyclicSort.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add out/production/Sorting/BubbleSort.class src/BubbleSort.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Added comments related to the time and space complexity"
+[master a144464] Added comments related to the time and space complexity
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add out/production/Sorting/InsertionSort.class src/InsertionSort.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Added comments related to the time and space complexity"
+[master 6cd212e] Added comments related to the time and space complexity
+ 4 files changed, 6 insertions(+)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git log -5 --all --graph
+* commit 6cd212e029cb7b994054092036057c556dcf2328 (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 18 19:46:51 2023 +0530
+|
+|     Added comments related to the time and space complexity
+|
+* commit a144464924f3e13bc93c2a4d103fba86bf67deaf
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 18 19:46:06 2023 +0530
+|
+|     Added comments related to the time and space complexity
+|
+* commit fc393658049b20b2f30d1b1797cb16b53a654997
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 18 19:45:18 2023 +0530
+|
+|     Created CyclicSort.java file
+|
+* commit 055f06de6651d79f3b3edccaff8321ed21c36845
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 18 19:44:22 2023 +0530
+|
+|     Added Cyclic Sort.pdf file
+|
+* commit c62b3e9cd92d0093bb5a411552f139f333cc640a (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 18 17:53:25 2023 +0530
+|
+|     Did some minor changes in the comments
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git push origin master
+Enumerating objects: 40, done.
+Counting objects: 100% (40/40), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (29/29), 406.55 KiB | 4.11 MiB/s, done.
+Total 29 (delta 14), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (14/14), completed with 7 local objects.
+To https://github.com/akshetpatial/Sorting.git
+   c62b3e9..6cd212e  master -> master
 
