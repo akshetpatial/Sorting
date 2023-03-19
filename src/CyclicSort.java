@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class CyclicSort {
 
-    //In this Sorting technique the range of the value should be form 1 to N.
+    //In this Sorting technique the range of the value should be form 1 to N or 0 to N.
     // Best Case Time complexity is O(N)
     // Worst Case Time complexity is O(N)
     // Space complexity is O(1)
@@ -12,8 +12,15 @@ public class CyclicSort {
         int start=0;
         int end=array.length-1;
         while(start<=end){
+            /* This is one logic
             if(array[start]!=start+1)
                 SwapifNotEqual(start,array[start]-1,array);
+             */
+        //This is another way of doing it in a better way
+            int current= array[start];
+            if(array[start]!=array[current-1]) {
+                SwapifNotEqual(start,array[start]-1,array);
+            }
             else
                 start++;
         }
