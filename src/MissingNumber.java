@@ -53,7 +53,6 @@ public class MissingNumber {
         int size=scan.nextInt();
 
         System.out.println("Enter the Elements of the un-sorted array: ");
-        System.out.println("Please Note here for Cyclic Sort Please enter element between 1 to N only: ");
         int[] array=new int[size];
         // 3 0 1    0 1     9 6 4 2 3 5 7 0 1   1 2
         for(int i=0;i<size;i++){
