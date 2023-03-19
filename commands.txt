@@ -956,3 +956,92 @@ remote: Resolving deltas: 100% (9/9), completed with 6 local objects.
 To https://github.com/akshetpatial/Sorting.git
    d88ff06..a1343dd  master -> master
 
+
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Sorting/CyclicSort.class
+        modified:   out/production/Sorting/MissingNumber.class
+        modified:   src/CyclicSort.java
+        modified:   src/MissingNumber.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Sorting/NumbersDisappearedinArray.class
+        src/NumbersDisappearedinArray.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add out/production/Sorting/CyclicSort.class src/CyclicSort.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "added one more way to do Cyclic Sort"
+[master 20e5081] added one more way to do Cyclic Sort
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add out/production/Sorting/MissingNumber.class src/MissingNumber.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "did some minor changes"
+[master 666b094] did some minor changes
+ 2 files changed, 1 deletion(-)
+ rewrite out/production/Sorting/MissingNumber.class (65%)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add out/production/Sorting/NumbersDisappearedinArray.class src/NumbersDisappearedinArray.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Added NumberDisappeardinArray.java"
+[master 77ea0ad] Added NumberDisappeardinArray.java
+ 2 files changed, 103 insertions(+)
+ create mode 100644 out/production/Sorting/NumbersDisappearedinArray.class
+ create mode 100644 src/NumbersDisappearedinArray.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git log -4 --all --graph
+* commit 77ea0ad072f390ac0e1c471d63a7610b04d1da9f (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Mar 19 13:13:16 2023 +0530
+|
+|     Added NumberDisappeardinArray.java
+|
+* commit 666b09402ae2a4279672aaec14d585462d2cf9e6
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Mar 19 13:12:36 2023 +0530
+|
+|     did some minor changes
+|
+* commit 20e508162a6696d0a708e156398b09e429c0a858
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Mar 19 13:11:08 2023 +0530
+|
+|     added one more way to do Cyclic Sort
+|
+* commit 0af5abf933aa8eee490c8f7e9f5ebed7b9dfa0ec (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Mar 19 01:42:13 2023 +0530
+|
+|     added commands related to MissingNumber
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git push origin master
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (24/24), 5.32 KiB | 363.00 KiB/s, done.
+Total 24 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), completed with 5 local objects.
+To https://github.com/akshetpatial/Sorting.git
+   0af5abf..77ea0ad  master -> master
+
+
