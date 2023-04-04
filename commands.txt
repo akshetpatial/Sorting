@@ -1122,3 +1122,136 @@ remote: Resolving deltas: 100% (6/6), completed with 4 local objects.
 To https://github.com/akshetpatial/Sorting.git
    19be9a2..82c4eb3  master -> master
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Sorting/FirstMissingPositive.class
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Sorting/MergeSort.class
+        src/MergeSort.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add out/production/Sorting/
+FirstMissingPositive.class  MergeSort.class
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add out/production/Sorting/FirstMissingPositive.class
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "No Change"
+[master acd4b68] No Change
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Sorting/MergeSort.class
+        src/MergeSort.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Created the Merge Sort.java file"
+[master d59a60e] Created the Merge Sort.java file
+ 2 files changed, 6 insertions(+)
+ create mode 100644 out/production/Sorting/MergeSort.class
+ create mode 100644 src/MergeSort.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git log -5 --all --graph
+* commit d59a60ef9ddad7287e1c5f3f19836b9bfc3413f1 (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 02:01:41 2023 +0530
+|
+|     Created the Merge Sort.java file
+|
+* commit acd4b684e91d8d753c4f72f56875e2f475340a9e
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 02:01:14 2023 +0530
+|
+|     No Change
+|
+* commit 1e6f42cd81df282b3729b9d15e5f36e897685255 (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Mar 20 13:38:59 2023 +0530
+|
+|     Added commands related to NumberDisappearedinArray
+|
+* commit 82c4eb3be43dbf0e11decf7e880823e1f3402ff3
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Mar 20 13:36:57 2023 +0530
+|
+|     NumberDisappearedArray.java file
+|
+* commit 492f506acb803f6d7bbacf30cb368b36184b86d4
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Mar 20 13:36:12 2023 +0530
+|
+|     Minor change
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git push origin master
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (14/14), 1.38 KiB | 352.00 KiB/s, done.
+Total 14 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 4 local objects.
+To https://github.com/akshetpatial/Sorting.git
+   1e6f42c..d59a60e  master -> master
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git log -5 --all --graph
+* commit d59a60ef9ddad7287e1c5f3f19836b9bfc3413f1 (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 02:01:41 2023 +0530
+|
+|     Created the Merge Sort.java file
+|
+* commit acd4b684e91d8d753c4f72f56875e2f475340a9e
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 02:01:14 2023 +0530
+|
+|     No Change
+|
+* commit 1e6f42cd81df282b3729b9d15e5f36e897685255
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Mar 20 13:38:59 2023 +0530
+|
+|     Added commands related to NumberDisappearedinArray
+|
+* commit 82c4eb3be43dbf0e11decf7e880823e1f3402ff3
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Mar 20 13:36:57 2023 +0530
+|
+|     NumberDisappearedArray.java file
+|
+* commit 492f506acb803f6d7bbacf30cb368b36184b86d4
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Mar 20 13:36:12 2023 +0530
+|
+|     Minor change
+
