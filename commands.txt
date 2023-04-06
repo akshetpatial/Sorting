@@ -1255,3 +1255,97 @@ $ git log -5 --all --graph
 |
 |     Minor change
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Sorting/MergeSort.class
+        modified:   src/MergeSort.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Merge Sort.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add Merge\ Sort.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Added the Merge Sort.pdf file"
+[master d0e539c] Added the Merge Sort.pdf file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Merge Sort.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Sorting/MergeSort.class
+        modified:   src/MergeSort.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Added the In-Place Merge Sort Array method"
+[master be35faa] Added the In-Place Merge Sort Array method
+ 2 files changed, 65 insertions(+)
+ rewrite out/production/Sorting/MergeSort.class (81%)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git log -5 --all --graph
+* commit be35faa5fc6bbde7d4500002727d9b7385320aae (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Thu Apr 6 11:48:27 2023 +0530
+|
+|     Added the In-Place Merge Sort Array method
+|
+* commit d0e539c9f916ff77f4b4f5e359955f234667cd62
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Thu Apr 6 11:47:52 2023 +0530
+|
+|     Added the Merge Sort.pdf file
+|
+* commit 24f40701e7f1e2e81a2085cd25cb6e4041de60c0 (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 12:02:03 2023 +0530
+|
+|     Added the method MergeSorting and merge
+|
+* commit d8477d66a616c413b7e0d2e2bb9aac4a3fa0bf6b
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 02:02:47 2023 +0530
+|
+|     Added commands related to Merge Sort
+|
+* commit d59a60ef9ddad7287e1c5f3f19836b9bfc3413f1
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 02:01:41 2023 +0530
+|
+|     Created the Merge Sort.java file
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 1.11 MiB | 1.88 MiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 4 local objects.
+To https://github.com/akshetpatial/Sorting.git
+   24f4070..be35faa  master -> master
+
+
