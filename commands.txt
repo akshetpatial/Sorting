@@ -157,7 +157,7 @@ Changes to be committed:
         new file:   .idea/misc.xml
         new file:   .idea/modules.xml
         new file:   Sorting.iml
-        new file:   src/BubbleSort.java
+        new file:   src/com.akshet.Sorting.BubbleSort.java
 
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
@@ -168,7 +168,7 @@ $ git commit -m "Created the Directory Sorting and initialize the remote directo
  create mode 100644 .idea/misc.xml
  create mode 100644 .idea/modules.xml
  create mode 100644 Sorting.iml
- create mode 100644 src/BubbleSort.java
+ create mode 100644 src/com.akshet.Sorting.BubbleSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -367,7 +367,7 @@ Changes to be committed:
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   src/BubbleSort.java
+        modified:   src/com.akshet.Sorting.BubbleSort.java
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -389,7 +389,7 @@ Changes to be committed:
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   src/BubbleSort.java
+        modified:   src/com.akshet.Sorting.BubbleSort.java
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -409,7 +409,7 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   src/BubbleSort.java
+        modified:   src/com.akshet.Sorting.BubbleSort.java
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -429,7 +429,7 @@ $ git log -4 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sat Mar 18 02:56:49 2023 +0530
 |
-|     added commands related to initiliazing the git and Creating BubbleSort.java file in commands.txt
+|     added commands related to initiliazing the git and Creating com.akshet.Sorting.BubbleSort.java file in commands.txt
 |
 * commit c2e2d56452861d6ed29f994b616327e7a32707ff
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
@@ -461,7 +461,7 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   src/BubbleSort.java
+        modified:   src/com.akshet.Sorting.BubbleSort.java
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -477,14 +477,14 @@ $ git status
 On branch master
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-        new file:   out/production/Sorting/BubbleSort.class
-        modified:   src/BubbleSort.java
+        new file:   out/production/Sorting/com.akshet.Sorting.BubbleSort.class
+        modified:   src/com.akshet.Sorting.BubbleSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Created the Bubble Sort.java file"
 [master f80fa10] Created the Bubble Sort.java file
  2 files changed, 55 insertions(+), 1 deletion(-)
- create mode 100644 out/production/Sorting/BubbleSort.class
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.BubbleSort.class
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -509,7 +509,7 @@ $ git log -4 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sat Mar 18 02:56:49 2023 +0530
 |
-|     added commands related to initiliazing the git and Creating BubbleSort.java file in commands.txt
+|     added commands related to initiliazing the git and Creating com.akshet.Sorting.BubbleSort.java file in commands.txt
 |
 * commit c2e2d56452861d6ed29f994b616327e7a32707ff
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
@@ -536,8 +536,8 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         Insertion Sort.pdf
         Selection sort.pdf
-        out/production/Sorting/SelectionSort.class
-        src/SelectionSort.java
+        out/production/Sorting/com.akshet.Sorting.SelectionSort.class
+        src/com.akshet.Sorting.SelectionSort.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 
@@ -556,8 +556,8 @@ On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         Selection sort.pdf
-        out/production/Sorting/SelectionSort.class
-        src/SelectionSort.java
+        out/production/Sorting/com.akshet.Sorting.SelectionSort.class
+        src/com.akshet.Sorting.SelectionSort.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 
@@ -589,29 +589,29 @@ $ git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/SelectionSort.class
-        src/SelectionSort.java
+        out/production/Sorting/com.akshet.Sorting.SelectionSort.class
+        src/com.akshet.Sorting.SelectionSort.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/SelectionSort.class src/SelectionSort.java
+$ git add out/production/Sorting/com.akshet.Sorting.SelectionSort.class src/com.akshet.Sorting.SelectionSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
 On branch master
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-        new file:   out/production/Sorting/SelectionSort.class
-        new file:   src/SelectionSort.java
+        new file:   out/production/Sorting/com.akshet.Sorting.SelectionSort.class
+        new file:   src/com.akshet.Sorting.SelectionSort.java
 
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git commit -m "Created the SelectionSort.java file"
-[master 95cdcbc] Created the SelectionSort.java file
+$ git commit -m "Created the com.akshet.Sorting.SelectionSort.java file"
+[master 95cdcbc] Created the com.akshet.Sorting.SelectionSort.java file
  2 files changed, 58 insertions(+)
- create mode 100644 out/production/Sorting/SelectionSort.class
- create mode 100644 src/SelectionSort.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.SelectionSort.class
+ create mode 100644 src/com.akshet.Sorting.SelectionSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -624,7 +624,7 @@ $ git log -4 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sat Mar 18 16:02:43 2023 +0530
 |
-|     Created the SelectionSort.java file
+|     Created the com.akshet.Sorting.SelectionSort.java file
 |
 * commit 50c05f2116309d71d163932668426142b8f1b575
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
@@ -662,18 +662,18 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   out/production/Sorting/SelectionSort.class
-        modified:   src/SelectionSort.java
+        modified:   out/production/Sorting/com.akshet.Sorting.SelectionSort.class
+        modified:   src/com.akshet.Sorting.SelectionSort.java
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/InsertionSort.class
-        src/InsertionSort.java
+        out/production/Sorting/com.akshet.Sorting.InsertionSort.class
+        src/com.akshet.Sorting.InsertionSort.java
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/SelectionSort.class src/SelectionSort.java
+$ git add out/production/Sorting/com.akshet.Sorting.SelectionSort.class src/com.akshet.Sorting.SelectionSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Did some minor changes"
@@ -685,8 +685,8 @@ $ git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/InsertionSort.class
-        src/InsertionSort.java
+        out/production/Sorting/com.akshet.Sorting.InsertionSort.class
+        src/com.akshet.Sorting.InsertionSort.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 
@@ -694,11 +694,11 @@ Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git add .
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git commit -m "Created the InsertionSort.java file"
-[master 6f67a4e] Created the InsertionSort.java file
+$ git commit -m "Created the com.akshet.Sorting.InsertionSort.java file"
+[master 6f67a4e] Created the com.akshet.Sorting.InsertionSort.java file
  2 files changed, 52 insertions(+)
- create mode 100644 out/production/Sorting/InsertionSort.class
- create mode 100644 src/InsertionSort.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.InsertionSort.class
+ create mode 100644 src/com.akshet.Sorting.InsertionSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -711,7 +711,7 @@ $ git log -4 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sat Mar 18 17:24:04 2023 +0530
 |
-|     Created the InsertionSort.java file
+|     Created the com.akshet.Sorting.InsertionSort.java file
 |
 * commit 9fbd44411cedf50df0ab8b1e06bc446c523c03e7
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
@@ -723,7 +723,7 @@ $ git log -4 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sat Mar 18 16:02:43 2023 +0530
 |
-|     Created the SelectionSort.java file
+|     Created the com.akshet.Sorting.SelectionSort.java file
 |
 * commit 50c05f2116309d71d163932668426142b8f1b575
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
@@ -754,18 +754,18 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   out/production/Sorting/BubbleSort.class
-        modified:   out/production/Sorting/InsertionSort.class
-        modified:   out/production/Sorting/SelectionSort.class
-        modified:   src/BubbleSort.java
-        modified:   src/InsertionSort.java
-        modified:   src/SelectionSort.java
+        modified:   out/production/Sorting/com.akshet.Sorting.BubbleSort.class
+        modified:   out/production/Sorting/com.akshet.Sorting.InsertionSort.class
+        modified:   out/production/Sorting/com.akshet.Sorting.SelectionSort.class
+        modified:   src/com.akshet.Sorting.BubbleSort.java
+        modified:   src/com.akshet.Sorting.InsertionSort.java
+        modified:   src/com.akshet.Sorting.SelectionSort.java
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         Cyclic Sort.pdf
-        out/production/Sorting/CyclicSort.class
-        src/CyclicSort.java
+        out/production/Sorting/com.akshet.Sorting.CyclicSort.class
+        src/com.akshet.Sorting.CyclicSort.java
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -779,17 +779,17 @@ $ git commit -m "Added Cyclic Sort.pdf file"
  create mode 100644 Cyclic Sort.pdf
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/CyclicSort.class src/CyclicSort.java
+$ git add out/production/Sorting/com.akshet.Sorting.CyclicSort.class src/com.akshet.Sorting.CyclicSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git commit -m "Created CyclicSort.java file"
-[master fc39365] Created CyclicSort.java file
+$ git commit -m "Created com.akshet.Sorting.CyclicSort.java file"
+[master fc39365] Created com.akshet.Sorting.CyclicSort.java file
  2 files changed, 54 insertions(+)
- create mode 100644 out/production/Sorting/CyclicSort.class
- create mode 100644 src/CyclicSort.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.CyclicSort.class
+ create mode 100644 src/com.akshet.Sorting.CyclicSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/BubbleSort.class src/BubbleSort.java
+$ git add out/production/Sorting/com.akshet.Sorting.BubbleSort.class src/com.akshet.Sorting.BubbleSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Added comments related to the time and space complexity"
@@ -797,7 +797,7 @@ $ git commit -m "Added comments related to the time and space complexity"
  2 files changed, 3 insertions(+), 1 deletion(-)
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/InsertionSort.class src/InsertionSort.java
+$ git add out/production/Sorting/com.akshet.Sorting.InsertionSort.class src/com.akshet.Sorting.InsertionSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git add .
@@ -830,7 +830,7 @@ $ git log -5 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sat Mar 18 19:45:18 2023 +0530
 |
-|     Created CyclicSort.java file
+|     Created com.akshet.Sorting.CyclicSort.java file
 |
 * commit 055f06de6651d79f3b3edccaff8321ed21c36845
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
@@ -863,20 +863,20 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   out/production/Sorting/BubbleSort.class
-        modified:   out/production/Sorting/CyclicSort.class
-        modified:   out/production/Sorting/InsertionSort.class
-        modified:   out/production/Sorting/SelectionSort.class
+        modified:   out/production/Sorting/com.akshet.Sorting.BubbleSort.class
+        modified:   out/production/Sorting/com.akshet.Sorting.CyclicSort.class
+        modified:   out/production/Sorting/com.akshet.Sorting.InsertionSort.class
+        modified:   out/production/Sorting/com.akshet.Sorting.SelectionSort.class
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/MissingNumber.class
-        src/MissingNumber.java
+        out/production/Sorting/com.akshet.Sorting.MissingNumber.class
+        src/com.akshet.Sorting.MissingNumber.java
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/BubbleSort.class out/production/Sorting/CyclicSort.class out/production/Sorting/InsertionSort.class out/production/Sorting/SelectionSort.class
+$ git add out/production/Sorting/com.akshet.Sorting.BubbleSort.class out/production/Sorting/com.akshet.Sorting.CyclicSort.class out/production/Sorting/com.akshet.Sorting.InsertionSort.class out/production/Sorting/com.akshet.Sorting.SelectionSort.class
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "minor changes"
@@ -888,8 +888,8 @@ $ git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/MissingNumber.class
-        src/MissingNumber.java
+        out/production/Sorting/com.akshet.Sorting.MissingNumber.class
+        src/com.akshet.Sorting.MissingNumber.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 
@@ -900,8 +900,8 @@ Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Created the MissingNUmber.java file"
 git [master a1343dd] Created the MissingNUmber.java file
  2 files changed, 72 insertions(+)
- create mode 100644 out/production/Sorting/MissingNumber.class
- create mode 100644 src/MissingNumber.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.MissingNumber.class
+ create mode 100644 src/com.akshet.Sorting.MissingNumber.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -962,20 +962,20 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   out/production/Sorting/CyclicSort.class
-        modified:   out/production/Sorting/MissingNumber.class
-        modified:   src/CyclicSort.java
-        modified:   src/MissingNumber.java
+        modified:   out/production/Sorting/com.akshet.Sorting.CyclicSort.class
+        modified:   out/production/Sorting/com.akshet.Sorting.MissingNumber.class
+        modified:   src/com.akshet.Sorting.CyclicSort.java
+        modified:   src/com.akshet.Sorting.MissingNumber.java
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/NumbersDisappearedinArray.class
-        src/NumbersDisappearedinArray.java
+        out/production/Sorting/com.akshet.Sorting.NumbersDisappearedinArray.class
+        src/com.akshet.Sorting.NumbersDisappearedinArray.java
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/CyclicSort.class src/CyclicSort.java
+$ git add out/production/Sorting/com.akshet.Sorting.CyclicSort.class src/com.akshet.Sorting.CyclicSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "added one more way to do Cyclic Sort"
@@ -983,23 +983,23 @@ $ git commit -m "added one more way to do Cyclic Sort"
  2 files changed, 8 insertions(+), 1 deletion(-)
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/MissingNumber.class src/MissingNumber.java
+$ git add out/production/Sorting/com.akshet.Sorting.MissingNumber.class src/com.akshet.Sorting.MissingNumber.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "did some minor changes"
 [master 666b094] did some minor changes
  2 files changed, 1 deletion(-)
- rewrite out/production/Sorting/MissingNumber.class (65%)
+ rewrite out/production/Sorting/com.akshet.Sorting.MissingNumber.class (65%)
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/NumbersDisappearedinArray.class src/NumbersDisappearedinArray.java
+$ git add out/production/Sorting/com.akshet.Sorting.NumbersDisappearedinArray.class src/com.akshet.Sorting.NumbersDisappearedinArray.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Added NumberDisappeardinArray.java"
 [master 77ea0ad] Added NumberDisappeardinArray.java
  2 files changed, 103 insertions(+)
- create mode 100644 out/production/Sorting/NumbersDisappearedinArray.class
- create mode 100644 src/NumbersDisappearedinArray.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.NumbersDisappearedinArray.class
+ create mode 100644 src/com.akshet.Sorting.NumbersDisappearedinArray.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -1030,7 +1030,7 @@ $ git log -4 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sun Mar 19 01:42:13 2023 +0530
 |
-|     added commands related to MissingNumber
+|     added commands related to com.akshet.Sorting.MissingNumber
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git push origin master
@@ -1052,17 +1052,17 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   out/production/Sorting/NumbersDisappearedinArray.class
+        modified:   out/production/Sorting/com.akshet.Sorting.NumbersDisappearedinArray.class
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/FirstMissingPositive.class
-        src/FirstMissingPositive.java
+        out/production/Sorting/com.akshet.Sorting.FirstMissingPositive.class
+        src/com.akshet.Sorting.FirstMissingPositive.java
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/NumbersDisappearedinArray.class
+$ git add out/production/Sorting/com.akshet.Sorting.NumbersDisappearedinArray.class
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Minor change"
@@ -1076,8 +1076,8 @@ Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "NumberDisappearedArray.java file"
 [master 82c4eb3] NumberDisappearedArray.java file
  2 files changed, 63 insertions(+)
- create mode 100644 out/production/Sorting/FirstMissingPositive.class
- create mode 100644 src/FirstMissingPositive.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.FirstMissingPositive.class
+ create mode 100644 src/com.akshet.Sorting.FirstMissingPositive.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -1102,7 +1102,7 @@ $ git log -4 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sun Mar 19 13:14:46 2023 +0530
 |
-|     Added commands related to MissingNumber and Disappear Numbers
+|     Added commands related to com.akshet.Sorting.MissingNumber and Disappear Numbers
 |
 * commit 77ea0ad072f390ac0e1c471d63a7610b04d1da9f
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
@@ -1128,21 +1128,21 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   out/production/Sorting/FirstMissingPositive.class
+        modified:   out/production/Sorting/com.akshet.Sorting.FirstMissingPositive.class
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/MergeSort.class
-        src/MergeSort.java
+        out/production/Sorting/com.akshet.Sorting.MergeSort.class
+        src/com.akshet.Sorting.MergeSort.java
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git add out/production/Sorting/
-FirstMissingPositive.class  MergeSort.class
+com.akshet.Sorting.FirstMissingPositive.class  com.akshet.Sorting.MergeSort.class
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/FirstMissingPositive.class
+$ git add out/production/Sorting/com.akshet.Sorting.FirstMissingPositive.class
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "No Change"
@@ -1154,8 +1154,8 @@ $ git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/MergeSort.class
-        src/MergeSort.java
+        out/production/Sorting/com.akshet.Sorting.MergeSort.class
+        src/com.akshet.Sorting.MergeSort.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 
@@ -1166,8 +1166,8 @@ Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Created the Merge Sort.java file"
 [master d59a60e] Created the Merge Sort.java file
  2 files changed, 6 insertions(+)
- create mode 100644 out/production/Sorting/MergeSort.class
- create mode 100644 src/MergeSort.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.MergeSort.class
+ create mode 100644 src/com.akshet.Sorting.MergeSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -1261,8 +1261,8 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   out/production/Sorting/MergeSort.class
-        modified:   src/MergeSort.java
+        modified:   out/production/Sorting/com.akshet.Sorting.MergeSort.class
+        modified:   src/com.akshet.Sorting.MergeSort.java
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -1285,8 +1285,8 @@ On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   out/production/Sorting/MergeSort.class
-        modified:   src/MergeSort.java
+        modified:   out/production/Sorting/com.akshet.Sorting.MergeSort.class
+        modified:   src/com.akshet.Sorting.MergeSort.java
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -1297,7 +1297,7 @@ Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Added the In-Place Merge Sort Array method"
 [master be35faa] Added the In-Place Merge Sort Array method
  2 files changed, 65 insertions(+)
- rewrite out/production/Sorting/MergeSort.class (81%)
+ rewrite out/production/Sorting/com.akshet.Sorting.MergeSort.class (81%)
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -1356,8 +1356,8 @@ On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         Quick Sort.pdf
-        out/production/Sorting/QuickSort.class
-        src/QuickSort.java
+        out/production/Sorting/com.akshet.Sorting.QuickSort.class
+        src/com.akshet.Sorting.QuickSort.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 
@@ -1371,14 +1371,14 @@ $ git commit -m "Added the Quick Sort.java file"
  create mode 100644 Quick Sort.pdf
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/QuickSort.class src/QuickSort.java
+$ git add out/production/Sorting/com.akshet.Sorting.QuickSort.class src/com.akshet.Sorting.QuickSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git commit -m "Created the Quick Sort.java file"
 [master a844357] Created the Quick Sort.java file
  2 files changed, 106 insertions(+)
- create mode 100644 out/production/Sorting/QuickSort.class
- create mode 100644 src/QuickSort.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.QuickSort.class
+ create mode 100644 src/com.akshet.Sorting.QuickSort.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -1466,46 +1466,46 @@ $ git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/SkipCharacter.class
-        out/production/Sorting/SkipString.class
-        src/SkipCharacter.java
-        src/SkipString.java
+        out/production/Sorting/com.akshet.Sorting.SkipCharacter.class
+        out/production/Sorting/com.akshet.Sorting.SkipString.class
+        src/com.akshet.Sorting.SkipCharacter.java
+        src/com.akshet.Sorting.SkipString.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 g
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/SkipCharacter.class src/SkipCharacter.java
+$ git add out/production/Sorting/com.akshet.Sorting.SkipCharacter.class src/com.akshet.Sorting.SkipCharacter.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git commit -m "Created the class SkipCharacter.java"
-[master 625eb38] Created the class SkipCharacter.java
+$ git commit -m "Created the class com.akshet.Sorting.SkipCharacter.java"
+[master 625eb38] Created the class com.akshet.Sorting.SkipCharacter.java
  2 files changed, 85 insertions(+)
- create mode 100644 out/production/Sorting/SkipCharacter.class
- create mode 100644 src/SkipCharacter.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.SkipCharacter.class
+ create mode 100644 src/com.akshet.Sorting.SkipCharacter.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        out/production/Sorting/SkipString.class
-        src/SkipString.java
+        out/production/Sorting/com.akshet.Sorting.SkipString.class
+        src/com.akshet.Sorting.SkipString.java
 
 nothing added to commit but untracked files present (use "git add" to track)
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/S src/SkipString.java
+$ git add out/production/Sorting/S src/com.akshet.Sorting.SkipString.java
 fatal: pathspec 'out/production/Sorting/S' did not match any files
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git add out/production/Sorting/SkipString.class src/SkipString.java
+$ git add out/production/Sorting/com.akshet.Sorting.SkipString.class src/com.akshet.Sorting.SkipString.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
-$ git commit -m "Created the class SkipString.java"
-[master a931c1c] Created the class SkipString.java
+$ git commit -m "Created the class com.akshet.Sorting.SkipString.java"
+[master a931c1c] Created the class com.akshet.Sorting.SkipString.java
  2 files changed, 44 insertions(+)
- create mode 100644 out/production/Sorting/SkipString.class
- create mode 100644 src/SkipString.java
+ create mode 100644 out/production/Sorting/com.akshet.Sorting.SkipString.class
+ create mode 100644 src/com.akshet.Sorting.SkipString.java
 
 Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
 $ git status
@@ -1535,19 +1535,19 @@ $ git log -5 --all --graph
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sat Apr 8 00:47:10 2023 +0530
 |
-|     Created the class SkipString.java
+|     Created the class com.akshet.Sorting.SkipString.java
 |
 * commit 625eb384e5de1696f62c0cb0a653f29f19b5a026
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Sat Apr 8 00:46:01 2023 +0530
 |
-|     Created the class SkipCharacter.java
+|     Created the class com.akshet.Sorting.SkipCharacter.java
 |
 * commit 3c8594059f5b9775b0221acbfcec196ce51aa29f
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>
 | Date:   Fri Apr 7 13:57:18 2023 +0530
 |
-|     Added commands related to QuickSort.java file
+|     Added commands related to com.akshet.Sorting.QuickSort.java file
 |
 * commit a84435716c7df4695f06e354b4684aac2412ee8a
 | Author: AKSHET PATIAL <akshet.patial@gmail.com>

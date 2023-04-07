@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package com.akshet.Sorting;
+
 import java.util.Scanner;
 
 public class MissingNumber {

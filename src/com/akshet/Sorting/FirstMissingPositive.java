@@ -1,6 +1,6 @@
-import org.w3c.dom.ls.LSOutput;
+package com.akshet.Sorting;
 
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class FirstMissingPositive {

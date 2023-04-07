@@ -1,3 +1,5 @@
+package com.akshet.Sorting;
+
 import java.util.Scanner;
 
 public class SkipCharacter {
