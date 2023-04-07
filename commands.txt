@@ -1566,4 +1566,131 @@ $ git push origin master
 Everything up-to-date
 
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .idea/uiDesigner.xml
+        renamed:    src/BubbleSort.java -> src/com/akshet/Sorting/BubbleSort.java
+        renamed:    src/CyclicSort.java -> src/com/akshet/Sorting/CyclicSort.java
+        renamed:    src/FirstMissingPositive.java -> src/com/akshet/Sorting/FirstMissingPositive.java
+        renamed:    src/InsertionSort.java -> src/com/akshet/Sorting/InsertionSort.java
+        renamed:    src/MergeSort.java -> src/com/akshet/Sorting/MergeSort.java
+        renamed:    src/MissingNumber.java -> src/com/akshet/Sorting/MissingNumber.java
+        renamed:    src/NumbersDisappearedinArray.java -> src/com/akshet/Sorting/NumbersDisappearedinArray.java
+        renamed:    src/QuickSort.java -> src/com/akshet/Sorting/QuickSort.java
+        renamed:    src/SelectionSort.java -> src/com/akshet/Sorting/SelectionSort.java
+        renamed:    src/SkipCharacter.java -> src/com/akshet/Sorting/SkipCharacter.java
+        renamed:    src/SkipString.java -> src/com/akshet/Sorting/SkipString.java
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   commands.txt
+        deleted:    out/production/Sorting/BubbleSort.class
+        deleted:    out/production/Sorting/CyclicSort.class
+        deleted:    out/production/Sorting/FirstMissingPositive.class
+        deleted:    out/production/Sorting/InsertionSort.class
+        deleted:    out/production/Sorting/MergeSort.class
+        deleted:    out/production/Sorting/MissingNumber.class
+        deleted:    out/production/Sorting/NumbersDisappearedinArray.class
+        deleted:    out/production/Sorting/QuickSort.class
+        deleted:    out/production/Sorting/SelectionSort.class
+        deleted:    out/production/Sorting/SkipCharacter.class
+        deleted:    out/production/Sorting/SkipString.class
+        modified:   src/com/akshet/Sorting/BubbleSort.java
+        modified:   src/com/akshet/Sorting/CyclicSort.java
+        modified:   src/com/akshet/Sorting/FirstMissingPositive.java
+        modified:   src/com/akshet/Sorting/InsertionSort.java
+        modified:   src/com/akshet/Sorting/MergeSort.java
+        modified:   src/com/akshet/Sorting/MissingNumber.java
+        modified:   src/com/akshet/Sorting/NumbersDisappearedinArray.java
+        modified:   src/com/akshet/Sorting/QuickSort.java
+        modified:   src/com/akshet/Sorting/SelectionSort.java
+        modified:   src/com/akshet/Sorting/SkipCharacter.java
+        modified:   src/com/akshet/Sorting/SkipString.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Sorting/com/
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git add .
+warning: LF will be replaced by CRLF in commands.txt.
+The file will have its original line endings in your working directory
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .idea/uiDesigner.xml
+        modified:   commands.txt
+        renamed:    out/production/Sorting/BubbleSort.class -> out/production/Sorting/com/akshet/Sorting/BubbleSort.class
+        renamed:    out/production/Sorting/CyclicSort.class -> out/production/Sorting/com/akshet/Sorting/CyclicSort.class
+        renamed:    out/production/Sorting/FirstMissingPositive.class -> out/production/Sorting/com/akshet/Sorting/FirstMissingPositive.class
+        renamed:    out/production/Sorting/InsertionSort.class -> out/production/Sorting/com/akshet/Sorting/InsertionSort.class
+        renamed:    out/production/Sorting/MergeSort.class -> out/production/Sorting/com/akshet/Sorting/MergeSort.class
+        renamed:    out/production/Sorting/MissingNumber.class -> out/production/Sorting/com/akshet/Sorting/MissingNumber.class
+        renamed:    out/production/Sorting/NumbersDisappearedinArray.class -> out/production/Sorting/com/akshet/Sorting/NumbersDisappearedinArray.class
+        renamed:    out/production/Sorting/QuickSort.class -> out/production/Sorting/com/akshet/Sorting/QuickSort.class
+        renamed:    out/production/Sorting/SelectionSort.class -> out/production/Sorting/com/akshet/Sorting/SelectionSort.class
+        renamed:    out/production/Sorting/SkipCharacter.class -> out/production/Sorting/com/akshet/Sorting/SkipCharacter.class
+        renamed:    out/production/Sorting/SkipString.class -> out/production/Sorting/com/akshet/Sorting/SkipString.class
+        renamed:    src/BubbleSort.java -> src/com/akshet/Sorting/BubbleSort.java
+        renamed:    src/CyclicSort.java -> src/com/akshet/Sorting/CyclicSort.java
+        renamed:    src/FirstMissingPositive.java -> src/com/akshet/Sorting/FirstMissingPositive.java
+        renamed:    src/InsertionSort.java -> src/com/akshet/Sorting/InsertionSort.java
+        renamed:    src/MergeSort.java -> src/com/akshet/Sorting/MergeSort.java
+        renamed:    src/MissingNumber.java -> src/com/akshet/Sorting/MissingNumber.java
+        renamed:    src/NumbersDisappearedinArray.java -> src/com/akshet/Sorting/NumbersDisappearedinArray.java
+        renamed:    src/QuickSort.java -> src/com/akshet/Sorting/QuickSort.java
+        renamed:    src/SelectionSort.java -> src/com/akshet/Sorting/SelectionSort.java
+        renamed:    src/SkipCharacter.java -> src/com/akshet/Sorting/SkipCharacter.java
+        renamed:    src/SkipString.java -> src/com/akshet/Sorting/SkipString.java
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git commit -m "Created the Package com.akshet.Sorting and move all the class into that package"
+[master ed8d88b] Created the Package com.akshet.Sorting and move all the class into that package
+ 24 files changed, 270 insertions(+), 127 deletions(-)
+ create mode 100644 .idea/uiDesigner.xml
+ rename out/production/Sorting/{ => com/akshet/Sorting}/BubbleSort.class (59%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/CyclicSort.class (63%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/FirstMissingPositive.class (79%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/InsertionSort.class (58%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/MergeSort.class (74%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/MissingNumber.class (60%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/NumbersDisappearedinArray.class (66%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/QuickSort.class (65%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/SelectionSort.class (64%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/SkipCharacter.class (68%)
+ rename out/production/Sorting/{ => com/akshet/Sorting}/SkipString.class (75%)
+ rename src/{ => com/akshet/Sorting}/BubbleSort.java (98%)
+ rename src/{ => com/akshet/Sorting}/CyclicSort.java (98%)
+ rename src/{ => com/akshet/Sorting}/FirstMissingPositive.java (97%)
+ rename src/{ => com/akshet/Sorting}/InsertionSort.java (98%)
+ rename src/{ => com/akshet/Sorting}/MergeSort.java (99%)
+ rename src/{ => com/akshet/Sorting}/MissingNumber.java (98%)
+ rename src/{ => com/akshet/Sorting}/NumbersDisappearedinArray.java (98%)
+ rename src/{ => com/akshet/Sorting}/QuickSort.java (99%)
+ rename src/{ => com/akshet/Sorting}/SelectionSort.java (98%)
+ rename src/{ => com/akshet/Sorting}/SkipCharacter.java (98%)
+ rename src/{ => com/akshet/Sorting}/SkipString.java (97%)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Sorting (master)
+$ git push origin master
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (37/37), 22.16 KiB | 1.38 MiB/s, done.
+Total 37 (delta 13), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (13/13), completed with 3 local objects.
+To https://github.com/akshetpatial/Sorting.git
+   f9a8486..ed8d88b  master -> master
+
+
 
